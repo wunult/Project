@@ -1,0 +1,127 @@
+/* CSS Document */
+@media screen and (max-width: 767px){
+.nav { padding-top:20px;}
+.nav-menu { display:block;}
+.nav-menu i { font-size:30px;}
+.nav-phone { position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.8); display:none}
+.nav-phone li { float:none; margin:0; text-align:center;padding:10px 0;}
+.nav-phone li:first-child { padding-top:50px}
+.nav-phone li a { font-size:18px; }
+
+.nav-ul .nav-down .drop-down{
+	display: block;
+	width: 20%;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-ul .nav-down .drop-down .drop-n{background: none;}
+.nav-ul .nav-down .drop-down .drop-n div:hover{background: none;}
+.nav-ul .nav-down .drop-down .drop-n div a{color: #fff;}
+.nav-ul .nav-down .drop-down .drop-n div a:hover{transition: color 1s; color: #ed9305;}
+
+.nav .nav-close { display:block; position:absolute; z-index:999; right:10px; top:0px;}
+.logo img { width:80px;}
+.banner-num { font-size:14px; padding:2px 5px;right: 4%;}
+.banner-num span { font-size:30px;}
+.index1-title { font-size:40px;}
+.index1-topic { font-size:22px;}
+.index1-con { font-size:20px;}
+a.index1-but { font-size:18px;}
+.index1-word { font-size:14px;}
+.index2-title { font-size:48px;}
+.index2-left { display:block; width:100%;overflow: hidden;margin-bottom: 4%;}
+.index2-center { width:100%; padding:0; display:block;}
+.index2-li {margin-bottom: 4%;}
+.index2-li .index2-nr { min-height:0;}
+.index3-title { font-size:40px;}
+.index3-name ul li { width:100%;}
+
+.search .select-li:before { display:none}
+.title { font-size:30px;}
+.title span { font-size:16px;}
+.porduct-con .pop-s { font-size:16px;}
+.porduct-li { width:50%;}
+.what-right .pop-pro-detail { font-size:16px;}
+.open-left, .open-newRight{ float:none; width:100%; padding-bottom:4%}
+.open-right, .open-newLeft{ float:none; width:100%;}
+.about-open { padding:10% 4%}
+.about-event { padding:10% 4%}
+.about-what { padding:10% 4%}
+.about-major { padding:10% 4%}
+.about-major .event-li { padding-bottom:4%;}
+.what-right .index1-title { font-size:30px;}
+.event-title { font-size:18px;}
+.event-word { font-size:16px;}
+.about-top ul li a { font-size:12px;}
+.open-left, .open-newRight { font-size:16px;}
+.what-right .index1-title { font-size:30px;}
+.what-right .index1-title b { font-size:40px; padding-bottom:5px}
+.major-word { font-size:16px;}
+.major-con { font-size:20px;}
+.index-fix { position:static; width:auto;}
+.index-fix-li { text-align:center; display:inline-block; vertical-align:top;}
+.index-fix-li img { width:auto; height:35px;}
+}
+
+
+@media screen and (max-width:650px){
+.pop-pro-left { float:none; width:100%;}
+.pop-pro-right { float:none; width:100%;}
+.pop-pro-title { font-size:20px;}
+.select-but {font-size:12px;}
+.event-li { width:100%; padding-right:0}
+.event-li:nth-child(even) { padding-left:0}
+.index-more {top: -30px; right: -10px; width: 60px;height: 60px;border: #ffaa00 solid 2px;}
+.index-more a {font-size: 14px;}
+.index-more span {padding-top: 5px;}
+.index-more img { width:15px; height:auto;}
+
+}
+
+@media screen and (max-width:550px){
+.porduct-li { width:100%;}
+.porduct-topic { min-height:0;}
+.what-left img {max-width: 60%;}
+a.index1-but { font-size:18px;display: block; width: 80%; margin: 0 auto; margin-bottom: 2%;}
+}
+
+@media screen and (max-width:520px){
+.select-li { width:100%; margin-top:10px;}	
+.search .select-li { width:25%; margin-top:0;}
+.select-x { width:99%;}
+.select-but {width:99%;}
+.open-li { float:none; width:100%; padding-bottom:4%}
+
+.about-top ul li {padding-right: 3px;}
+.about-top ul li a {padding: 5px 5px;}
+.companyModal-box { width:90%;}
+}
+
+@media screen and (max-width:450px){
+.logo { padding-top:10px;}
+.nav {padding-top: 10px;}
+.banner-num { font-size:12px; }
+.banner-num span { font-size:20px;}
+
+.index1-title { font-size:30px;}
+.index1-topic { font-size:18px;}
+.index1-con { font-size:16px;}
+.index1-list ul li { width:50%;}
+.index3-title { font-size:30px;}
+
+.index2-li .index2-img { display:block; width:100%;}
+.index2-c-con { display:block;}
+.index2-right-title { font-size:24px;}
+.index2-list .index2-topic { font-size:17px;}
+
+}
+
+@media screen and (max-width:430px){
+.banner-num { right:auto; left:50%;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%); bottom:10%;}
+.banner-num span { font-size:18px;}
+
+}
+
+@media screen and (max-width:380px){
+.about-top ul li a { font-size:12px;}	
+}
